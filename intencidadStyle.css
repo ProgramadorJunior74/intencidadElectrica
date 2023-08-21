@@ -1,0 +1,242 @@
+*{
+    margin:0;
+}
+body{
+    background:#99d6fb;
+    font-family:'Courier New', Courier, monospace
+}
+header{
+    background:#04304b;
+}
+.bigBig{
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+header, .bigBig, .background, big .caja1 div, .caja2, .background4{
+    display:flex;
+}
+main{
+    margin-top: 300px;
+}
+.big, .orignBloq, .orignBloq2, .caja1, .caja2Child1, .caja2Child2{
+    display:flex;
+    flex-direction: column;
+}
+.big{
+    width: 34em
+}
+.orignBloq, .orignBloq2{
+    align-items:flex-end;
+    margin-bottom: 60px;
+}
+.background{
+    align-items:flex-end;
+}
+.background2, .background3{
+    background-color:#f9cf95;
+    border-radius:10px 10px 0 10px;
+}
+.bloque1, .bloque2, .bloque3, .bloque4{
+    background:#f9cf95;
+    padding:20px
+}
+.bloque1,  .bloque3{
+    border-radius: 0 0 10px 10px;
+    width:470px ;
+}
+.bloque2, .bloque4{
+    border-radius: 0 10px 0 0 ;
+}
+.bloque2{
+    height: 200px;
+}
+.bloque4{
+    height:100px;
+}
+    
+.caja1{
+    background-color:#096096;
+    border-radius:10px;
+    padding:20px;
+    color:rgb(255, 255, 255);
+    width: 464px;
+}
+.caja1 div div{
+    margin:20px
+}
+label{
+    color:black
+}
+.caja2{
+    padding:20px;
+    background-color: #096096;
+    width:464px;
+    border-radius:10px;
+}
+.caja2Child1{
+    background-color:#995800;
+    border-radius:10px 0 0 10px;
+    width:30%;
+    padding:10px
+}
+.caja2Child2{
+    flex-grow:1;
+
+}
+.formula{
+    background-color:#E39D3B;
+    border-radius: 0 10px 0 0;
+}
+.boxAnswerd{
+    background-color:#FFBB5C;
+    padding:20px;
+    border-radius:0 0 10px 0;
+}
+ .caja2Child1{
+    border-right:4px solid #096096;
+}
+.formula{
+    border-bottom:4px solid #096096;
+    display:flex;
+    flex-direction:column;
+}
+.realizar, .reload{
+    padding:15px;
+    
+}
+input{
+    margin-left:10px
+}
+button{
+    border-radius:10px;
+    border:none;
+    background-color: #d18b2b;
+    color:rgb(255, 255, 255);
+}
+button:hover{
+    background: #d5a25a;
+    
+}
+button:active{
+    background:rgb(255, 255, 255);
+    color:#d5a25a;
+    
+}
+.reload{
+    margin-left:20px;
+    background: #3BA2E3;
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+.reload:hover{
+    background-color:#69b5e4;
+}
+.reload:active{
+    background:rgb(255, 255, 255);
+    border: #3BA2E3;
+    color: #3BA2E3
+}
+.background4{
+    align-items:flex-end;
+}
+.pDatos, .pFormula{
+    padding:10px;
+    border-bottom:1px solid black;
+}
+#divDatos{
+    display:flex;
+    flex-direction:column;
+}
+.boxAnswerd{
+    font-family: 'Indie Flower', cursive;
+}
+.div1, .div2{
+    display:flex;
+    padding:10px
+}
+.inputDato1, .inputDato2{
+    border:none;
+    outline:none;
+    padding:10px;
+    width: 40px;
+    border-radius: 8px 0 0 8px;
+    margin: 0;
+}
+.parrafo_formula{
+    padding: 10px;
+    align-self: center;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+}
+.parrafo1, .parrafo2{
+    padding:10px;
+}
+.resolver{
+    padding:10px;
+}
+.selectMedition1, .selectMedition2{
+    background:#3BA2E3;
+    margin-right:10px;
+    border-radius: 0 8px 8px 0;
+    outline:none;
+    border:none;
+}
+@media  screen and (max-width: 578px) {
+    .caja1, .caja2{
+        padding: 5px;
+    }
+    .bloque1, .bloque2, .bloque3, .bloque4{
+        padding:10px
+    }
+    .bloque1, .bloque3{
+        width: 400px
+    }
+    h1{
+        font-size: 23px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .divBotones{
+        padding-left: 20px;
+        padding-bottom:10px
+    }
+    .big{
+        align-items:center;
+    }
+    .bloque4{
+        height:60px
+    }
+}
+@media screen and (max-width: 535px){
+    .caja1, .caja2{
+        width:300px;
+    }
+    .bloque1, .bloque3{
+        width: 280px;
+    }
+    .caja2{
+        flex-direction:column;
+        align-items:center;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .caja2Child1, .caja2Child2{
+        width:270px;
+        box-sizing:border-box;
+        border-radius:10px
+    }
+    .caja2Child1{
+        margin-bottom:30px;
+    }
+    .formula{
+        border-radius: 10px 10px 0 0;
+    }
+    .boxAnswerd{
+        border-radius: 0 0 10px 10px;
+    }
+    .bloque2{
+        height:240px;
+    }
+
+}
