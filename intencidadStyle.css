@@ -3,7 +3,7 @@
 }
 body{
     background:#99d6fb;
-    font-family: 'Indie Flower', cursive;
+    font-family:'Courier New', Courier, monospace
 }
 header{
     background:#04304b;
@@ -149,7 +149,7 @@ button:active{
     flex-direction:column;
 }
 .boxAnswerd{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Caveat', cursive;
 }
 .div1, .div2{
     display:flex;
@@ -167,7 +167,7 @@ button:active{
     padding: 10px;
     align-self: center;
     font-weight: 700;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Caveat', cursive;
 }
 .parrafo1, .parrafo2{
     padding:10px;
